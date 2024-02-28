@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eriks Restaurang</title>
+    <link rel="stylesheet" href="../css/kontakta_oss.css">
+    <link rel="icon" href="../images/logo_icon.ico" type="image/x.icon">
+</head>
+<body>
+    <div class="container">
+            <header>
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+                </div>
+                <nav class="horizontal-menu">
+                    <ul>
+                        <li><a href="../index.html">Hem</a></li>
+                        <li><a href="meny.html">Meny</a></li>
+                        <li><a href="boka_bord.html">Boka Bord</a></li>
+                        <li><a href="kontakta_oss.html">Kontakta Oss</a></li>
+                    </ul>
+                </nav>
+            </header>
+        <br>
+            <main>
+                <div class="ruta">
+                    <div class="formular">
+                        <form action="#" method="POST">
+                            
+                            <label for="namn">För- och efternamn:</label>
+                            <input type="text" id="namn" name="namn">
+
+                            <label for="mail">Mailadress:</label>
+                            <input type="text" id="mail" name="mail">
+                            
+                            <label for="amne">Ämne:</label>
+                            <select id="amne" name="amne">
+                                <option value="Maten">Maten</option>
+                                <option value="Bokning">Bokning</option>
+                                <option value="Övrigt">Övrigt</option>
+                            </select>
+                            
+                            <label for="meddelande">Meddelande:</label>
+                            <textarea id="meddelande" name="meddelande" placeholder="Skriv något.." style="height:200px"></textarea>
+                            
+                            <div id="book-button">
+                                <button class="book-button">Skicka</button>
+                            </div>
+                        </form>
+
+                        
+
+                    </div>
+                    
+                    <div class="kontakt">
+                        <h3>Kontakta oss!</h3>
+                        <p>Telefon: <a href="">070 123 45 67</a></p>
+                        <p>Mail: <a href="">eriks@restaurang.se</a> </p>
+
+                    </div>
+                </div>
+                
+    </div>
+                    
+            </main>
+            <div class="fixed">
+                <img src="../images/michelin.png" style="width:100%">
+                <a>Tre Michelinstjärnor 2024</a>
+        </div>
+
+            
+            
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>

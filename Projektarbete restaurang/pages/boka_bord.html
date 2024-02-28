@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eriks Restaurang</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/logo_icon.ico" type="image/x.icon">
+</head>
+<body>
+    <div class="container">
+            <header>
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+                </div>
+                <nav class="horizontal-menu">
+                    <ul>
+                        <li><a href="../index.html">Hem</a></li>
+                        <li><a href="meny.html">Meny</a></li>
+                        <li><a href="boka_bord.html">Boka Bord</a></li>
+                        <li><a href="kontakta_oss.html">Kontakta Oss</a></li>
+                    </ul>
+                </nav>
+            </header>
+        <br>
+            <main>
+                    <div id="booking-form">
+                        <div class="booking-form">
+                            <h2>Boka bord</h2>
+                            <label for="guests"><h4>Antal gäster:</h4></label>
+                                <select id="guests">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+
+                                <div id="recommendation"></div>
+
+                                <label for="tables"><h4>Antal bord:</h4></label>
+                                <select id="tables">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                                
+                                <label for="fullname"><h4>För- och efternamn:</h4></label>
+                                <input type="text" id="fullname" name="fullname">
+
+                                <label for="phone"><h4>Telefonnummer:</h4></label>
+                                <input type="tel" id="phone" name="phone" autocomplete="tel">
+                                
+                                
+                                <label for="datum"><h4>Datum:</h4></label>
+                                <input type="datetime-local" id="datum" name="datum">
+                                <br>
+                                
+                                <div id="book-button">
+                                    <button class="book-button">Boka</button>
+                                </div>
+                        </div>
+                    </div>
+                        <div id="confirmation-message" style="display: none;">
+                            <div class="tack">
+                                    <h2>Tack för din bokning!</h2>
+                            </div>
+                        </div>
+                    
+            </main>
+            <div class="fixed">
+                    <img src="../images/michelin.png" style="width:100%">
+                    <a>Tre Michelinstjärnor 2024</a>
+            </div>
+    </div>
+
+    <footer>
+        <div class="container2">
+            <div class="social-media">
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.twitter.com/">Twitter</a>
+            </div>
+            <div class="newsletter">
+                <h4>Nyhetsbrev</h4>
+                <input type="email" placeholder="Ange din e-postadress">
+                <button>Prenumerera</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/boka_bord.js"></script>
+</body>
+</html>
